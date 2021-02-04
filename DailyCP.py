@@ -17,7 +17,7 @@ class DailyCP:
     def __init__(self, schoolName="长江大学"):
         self.key = "b3L26XNL"  # dynamic when app update
         self.session = requests.session()
-        self.host = ""
+        self.host = "yangtzeu.campusphere.net"
         self.loginUrl = "https://yangtzeu.campusphere.net/wec-portal-mobile/client"
         self.isIAPLogin = True
         self.session.headers.update({
